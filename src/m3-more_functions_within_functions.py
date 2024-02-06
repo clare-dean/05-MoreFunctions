@@ -1,5 +1,5 @@
 ###############################################################################
-# TODO: 1. (6 pts)
+# DONE: 1. (6 pts)
 #
 #   In this module, we are going to start the process of making our own
 #   calculator. It is going to be a very simple calculator, because the user
@@ -27,7 +27,14 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-
+def add(num1, num2):
+    return num1 + num2
+def subtract(num1, num2):
+    return num1 - num2
+def multiply(num1, num2):
+    return num1 * num2
+def divide(num1, num2):
+    return num1 / num2
 ###############################################################################
 # TODO: 2. (8 pts)
 #
@@ -59,7 +66,15 @@
 #
 #   Once you have done this, then change the above _TODO_ to DONE.
 ###############################################################################
-
+def main():
+    print("Hello! Welcome!")
+    num1 = int(input("Enter the first number:"))
+    num2 = int(input("Enter the second number:"))
+    print(add(num1, num2))
+    print(subtract(num1, num2))
+    print(multiply(num1, num2))
+    print(divide(num1, num2))
+main()
 ###############################################################################
 # TODO: 3. EXTRA CREDIT (4 pts)
 #
